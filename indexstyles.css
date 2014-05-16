@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
+
+
+#content {
+	
+	margin: 2%;
+	padding: 30px;
+	height: 650px;
+	/*border: 1px solid #888;*/
+	box-shadow: inset 0px 0px 10px 1px #444;
+	background: #F2F2F2 url('http://s4f9b5693ec81c.img.gostorego.com/809E82/cdn/media/s4/f9/b5/69/3e/c8/1c/catalog/product/cache/1/image/f0275545e5a61566b30bce9955794da4/7686AR_SaltySea_Blue_03.jpg') repeat;
+	
+}
+
+#content-left {
+	
+	margin: 10px;
+	padding: 2%;
+	width: 60%;
+	height: auto;
+	border: 1px solid #888;
+	box-shadow: 0px 0px 5px #888;
+	background: #FFF ;
+	float: left;
+	
+}
+
+#content-middle {
+	
+	margin: 10px;
+	padding: 1%;
+	width: 28%;
+	height: auto;
+	border: 1px solid #888;
+	box-shadow: 0px 0px 5px #888;
+	background: #FFF;
+	float: right;
+
+	
+}
+
+#seperator {
+	
+	margin: 0 auto;	padding: 0;
+	border: none;
+
+	
+}
+
+.welcomeMsg {
+	
+	padding: 1%;
+	font-size: 14px;
+	font-family: 'Merriweather' , serif;
+	text-align: center;
+	
+}
+
+.infoList {
+	
+	padding-left: 50px;
+	list-style: none;
+	text-indent: 30px;
+	
+}
