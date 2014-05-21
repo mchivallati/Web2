@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
+@import url(http://fonts.googleapis.com/css?family=Rosario);
+
+
+#content {
+	
+	margin: 2%;
+	padding: 30px;
+	height: 650px;
+	/*border: 1px solid #888;*/
+	box-shadow: inset 0px 0px 10px 1px #444;
+	background: #F2F2F2 url('http://s4f9b5693ec81c.img.gostorego.com/809E82/cdn/media/s4/f9/b5/69/3e/c8/1c/catalog/product/cache/1/image/f0275545e5a61566b30bce9955794da4/7686AR_SaltySea_Blue_03.jpg') repeat;
+	
+}
+
+.beaches {
+	
+	margin: 1%;
+	padding: 3%;
+	background: #FFF;
+	box-shadow: inset 0px 0px 10px 1px #444;
+	width: 830px;
+	height: auto;
+	
+}
+
+.reveal,
+.reveal ul,
+.reveal ul li,
+.reveal ul ul {
+	
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+  
+}
+.reveal {
+	
+	margin: 1%;
+	padding: 0;
+	width: auto;
+	height: auto;
+	background: #181818;
+	color: #FFF;
+	font-size: 36px;
+	
+}
+.reveal li#reveal-items  {
+	
+	height: 40px;
+	overflow: hidden;
+	width: auto;
+	padding: 1%;
+	margin: 0;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	transition: all 500ms ease-out;
+	-webkit-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	-ms-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	
+}
+.reveal li#reveal-items:hover {
+	
+	height: 400px;
+	cursor: pointer;
+	color: #F3FAFF;
+	background: #142A3C;
+	
+}
+.reveal li#reveal-items ul {
+	
+	font-size: 18px;
+	color: #FFF;
+	font-family: 'Rosario' , sans-serif;
+	
+}
