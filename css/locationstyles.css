@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content {
+	
+	margin: 2%;
+	padding: 30px;
+	height: auto;
+	/*border: 1px solid #888;*/
+	box-shadow: inset 0px 0px 10px 1px #444;
+	background: #F2F2F2 url('http://s4f9b5693ec81c.img.gostorego.com/809E82/cdn/media/s4/f9/b5/69/3e/c8/1c/catalog/product/cache/1/image/f0275545e5a61566b30bce9955794da4/7686AR_SaltySea_Blue_03.jpg') repeat;
+	
+}
+
+table {
+	
+	background: #FFF;
+	margin: 2%;
+	padding: 20px;
+	box-shadow: inset 0px 0px 10px 1px #444;
+	
+}
+
+#googleMaps {
+	
+	background: #CCC;
+	box-shadow: 0px 0px 10px 1px #444;
+	text-align: center;
+	line-height: 2em;
+	
+}
+
+a{ 
+
+	color: #29467F;
+	text-decoration: none;
+	transition: all 250ms ease;
+	-moz-transition: all 250ms ease;
+	-ms-transition: all 250ms ease;
+	-o-transition: all 250ms ease;
+	-webkit-transition: all 250ms ease;
+
+}
+a:hover {
+	
+	color: #ABD6FF;
+	text-decoration: none;
+
+}
+a:active {
+	
+	color: #ABD6FF;
+	
+}
+a:visited {
+	
+	color: #29467F;
+	
+}
